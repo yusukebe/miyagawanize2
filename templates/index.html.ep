@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>miyagawanize2</title>
+    <script type="text/javascript" src="/js/jquery-1.7.2.min.js"></script>
+    <script type="text/javascript" src="/js/miyagawanize2.js"></script>
+  </head>
+  <body style="width:840px;margin:20px auto;">
+    <h1 style="margin:10px;auto;">miyagawanize2</h1>
+
+    <div style="visibility: hidden;  width:0; height:0;">
+      <canvas width="400" id="canvas" height="300"></canvas>
+    </div>
+ 
+    <div>
+      <video id="live" width="400" height="300" autoplay style="display: inline;"></video>
+      <img id="target" style="display: inline;"/>
+    </div>
+
+</html>
